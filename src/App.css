@@ -1,0 +1,74 @@
+/* src/App.css */
+
+/* General body styles */
+body, .App {
+  background-color: #191414; /* Spotify dark theme */
+  color: #fff; /* White text */
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.playlist-page {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Input group styling for labels and dropdowns */
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid #1DB954;
+  background-color: #282828;
+  color: #fff;
+  outline: none;
+}
+
+/* Create Playlist Button */
+.create-playlist-button {
+  background-color: #1DB954; /* Spotify green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.create-playlist-button:hover {
+  background-color: #14833b; /* Darker green on hover */
+}
+
+/* Playlist details section */
+.playlist-details {
+  margin-top: 2rem;
+}
+
+.playlist-details a {
+  color: #1DB954;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.playlist-details a:hover {
+  text-decoration: underline;
+}
